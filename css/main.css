@@ -1,5 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+	--dark-grey: #575757;
+	--button-color: #a2a79e;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+	display: block;
+	width: 100%;
+	padding: 20px;
+	background-color: var(--dark-grey);
+	color: #ffffff;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.loginForm {
+	width: 60%;
+	margin-top: 10vh;
+	padding: 2rem;
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	border-radius: 12px;
+}
+
+.loginForm .formTitle {
+	margin-bottom: 20px;
+}
+
+.inputWrapper {
+	display: flex;
+	width: 85%;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 16px;
+}
+
+.inputWrapper label {
+	width: 40%;
+	margin-right: 12px;
+	text-align: right;
+}
+
+.inputWrapper .formField {
+	width: 60%;
+	margin: 8px 0;
+	padding: 4px;
+	border-radius: 4px;
+	border: solid 1px rgba(0, 0, 0, 0.3);
+	outline: none;
+}
+
+.inputWrapper .formButton {
+	padding: 8px;
+	background-color: var(--button-color);
+	color: #ffffff;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
 }
