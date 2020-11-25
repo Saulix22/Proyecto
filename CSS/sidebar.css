@@ -1,0 +1,22 @@
+.navbar {
+	float: left;
+	width: 25%;
+	height: 100vh;
+	align-content: flex-start;
+	box-shadow: 0 0 24px #cccccc;
+}
+
+.usercard {
+	width: 100%;
+}
+
+.usercard .usercard__name {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.usercard .usercard__email {
+	font-size: 12px;
+	opacity: 0.4;
+}
