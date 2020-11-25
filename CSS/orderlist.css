@@ -1,0 +1,45 @@
+.orderlist {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	float: left;
+	width: 35%;
+	height: 100vh;
+	overflow-y: scroll;
+	background-color: #f9f9f9;
+
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.orderlist::-webkit-scrollbar {
+	display: none;
+}
+
+.ordercard {
+	width: 80%;
+	padding: 1rem;
+	margin: 0.5rem auto;
+	background-color: #ffffff;
+	border-radius: 12px;
+	box-shadow: 0 0 12px #cccccc;
+	font-size: 12px;
+}
+
+.ordercard p {
+	margin: 0;
+}
+
+.ordercard .order__name {
+	font-weight: 500;
+}
+
+.ordercard .order__email {
+	opacity: 0.6;
+}
+
+.ordercard .order__date {
+	margin-top: 1em;
+	text-align: right;
+	font-weight: 500;
+}
