@@ -14,7 +14,7 @@ require 'partials/db.php';
 	</head>
 	<body style="height: 100vh; overflow-y: scroll;">
 		<div class="row h-100">
-			<div class="col-sm-3">
+			<div class="col-sm-3" style="box-shadow: 0 0 24px #999999;">
 				<nav class="navbar navbar-light bg-light flex-column align-items-start justify-content-start h-100">
 					<span class="navbar-brand">UACJ</span>
 
@@ -39,8 +39,73 @@ require 'partials/db.php';
 					</ul>
 				</nav>
 			</div>
-			<div class="col-sm-3"></div>
-			<div class="col-sm-6"></div>
+
+			<div class="col-sm-3">
+				<div class="card mt-2">
+					<div class="card-body">
+						<h6 class="card-title">SAUL CASTAÑEDA HERNANDEZ</h6>
+						<p class="card-subtitle mb-2 text-muted">al180286@alumnos.uacj.mx</p>
+
+						<p class="card-text small text-right">Today 08:45 AM</p>
+					</div>
+				</div>
+
+				<div class="card mt-2">
+					<div class="card-body">
+						<h6 class="card-title">SAUL CASTAÑEDA HERNANDEZ</h6>
+						<p class="card-subtitle mb-2 text-muted">al180286@alumnos.uacj.mx</p>
+
+						<p class="card-text small text-right">Today 08:45 AM</p>
+					</div>
+				</div>
+
+				<div class="card mt-2">
+					<div class="card-body">
+						<h6 class="card-title">SAUL CASTAÑEDA HERNANDEZ</h6>
+						<p class="card-subtitle mb-2 text-muted">al180286@alumnos.uacj.mx</p>
+
+						<p class="card-text small text-right">Today 08:45 AM</p>
+					</div>
+				</div>
+
+				<div class="card mt-2">
+					<div class="card-body">
+						<h6 class="card-title">SAUL CASTAÑEDA HERNANDEZ</h6>
+						<p class="card-subtitle mb-2 text-muted">al180286@alumnos.uacj.mx</p>
+
+						<p class="card-text small text-right">Today 08:45 AM</p>
+					</div>
+				</div>
+
+				<div class="card mt-2">
+					<div class="card-body">
+						<h6 class="card-title">SAUL CASTAÑEDA HERNANDEZ</h6>
+						<p class="card-subtitle mb-2 text-muted">al180286@alumnos.uacj.mx</p>
+
+						<p class="card-text small text-right">Today 08:45 AM</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-5" style="padding: 0;">
+				<div class="card mt-2">
+					<div class="card-header">
+						<h4 class="card-title">SAUL CASTAÑEDA HERNANDEZ</h4>
+						<h6 class="card-subtitle text-muted">al180286@alumnos.uacj.mx</h6>
+					</div>
+
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">Herramienta 1</li>
+						<li class="list-group-item">Herramienta 2</li>
+						<li class="list-group-item">Herramienta 3</li>
+						<li class="list-group-item">Herramienta 4</li>
+					</ul>
+
+					<div class="card-body">	
+						<button class="btn btn-primary mt-2">Entregar</button>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
